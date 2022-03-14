@@ -15,6 +15,7 @@ func Init() {
 	http.HandleFunc("/health", actuator.Health)
 	http.Handle("/metrics", promhttp.Handler())
 
+
 	http.ListenAndServe(":8080", nil)
 
 }
