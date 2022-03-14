@@ -9,6 +9,7 @@ import (
 	"github.com/Davi-Arauj/dio-finance/model/transaction"
 	"github.com/Davi-Arauj/dio-finance/util"
 )
+
 //GetTransaction BLABLABLLA
 func GetTransaction(w http.ResponseWriter, r *http.Request) {
 	if r.Method != "GET" {
@@ -29,6 +30,7 @@ func GetTransaction(w http.ResponseWriter, r *http.Request) {
 
 	_ = json.NewEncoder(w).Encode(transactions)
 }
+
 //CreateATransaction blablablablabla
 func CreateATransaction(w http.ResponseWriter, r *http.Request) {
 	if r.Method != "POST" {

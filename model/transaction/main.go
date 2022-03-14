@@ -1,6 +1,7 @@
 package transaction
 
 import "time"
+
 //Transaction struct
 type Transaction struct {
 	Title     string    `json:"title"`

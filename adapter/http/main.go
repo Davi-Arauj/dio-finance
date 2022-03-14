@@ -6,6 +6,7 @@ import (
 	"github.com/Davi-Arauj/dio-finance/adapter/http/actuator"
 	"github.com/Davi-Arauj/dio-finance/adapter/http/transaction"
 )
+
 //Init bçalsjflakp
 func Init() {
 	http.HandleFunc("/transactions", transaction.GetTransaction)
